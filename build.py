@@ -36,6 +36,7 @@
 #   lua_compressed.js: The compressed Lua generator.
 #   msg/js/<LANG>.js for every language <LANG> defined in msg/js/<LANG>.json.
 
+
 import sys
 if sys.version_info[0] != 2:
   raise Exception("Blockly build only compatible with Python 2.x.\n"
